@@ -12,6 +12,8 @@ import (
 	"strings"
 )
 
+var version = "dev"
+
 var (
 	algo   = flag.String("a", "sha256", "hash algorithm: sha256 | md5")
 	width  = flag.Int("w", 17, "grid width")
@@ -156,6 +158,11 @@ func randomArt(input string) {
 }
 
 func main() {
+	if len(os.Args) > 1 && os.Args[1] == "--version" {
+		fmt.Println(version)
+		return
+	}
+
 	flag.Parse()
 
 	input, err := readInput()
