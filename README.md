@@ -39,3 +39,6 @@ Output:
 +-----------------+
 ```
 
+---
+["Hash  Visualization: a New Technique to improve Real-World Security", Perrig  A. and Song D., 1999, International Workshop on Cryptographic Techniques  and E-Commerce (CrypTEC '99)"](http://www.ece.cmu.edu/~adrian/projects/validation/validation.pdf) explains some techniques and advantages.
+
