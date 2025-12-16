@@ -94,7 +94,7 @@ func randomArt(input string) {
 	startX, startY := x, y
 
 	for _, b := range hash {
-		for i := 0; i < 4; i++ {
+		for range 4 {
 			move := b & 0x03
 			b >>= 2
 
